@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>190</x><y>120</y><w>130</w><h>60</h></coordinates><panel_attributes>Coleccion
+--
+--
+_+main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>150</x><y>230</y><w>40</w><h>100</h></coordinates><panel_attributes>List
+--
+add()
+get()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>310</x><y>230</y><w>40</w><h>100</h></coordinates><panel_attributes>Set
+--
+add()
+get()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>400</y><w>100</w><h>30</h></coordinates><panel_attributes>ArrayList</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>400</y><w>100</w><h>30</h></coordinates><panel_attributes>HashSet</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>250</y><w>110</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;90;40;60;150</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>250</y><w>100</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>80;10;10;50;20;140</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>170</y><w>140</w><h>250</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;230;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>170</y><w>50</w><h>250</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>30;230;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>70</y><w>100</w><h>30</h></coordinates><panel_attributes>Numero
+--
+-nombre:String
+--
+&lt;&lt;Constructor  +Numero(String)
++getNombre():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>170</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;80;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>170</y><w>40</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>20;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>80</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>70;10;10;80</additional_attributes></element></diagram>
