@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>90</x><y>280</y><w>220</w><h>100</h></coordinates><panel_attributes>bg=green
+Libro
+--
+-titulo:String
+-prioridad:int
+--
+Constructor +Libro(String, int)
++getTitulo():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>280</x><y>110</y><w>140</w><h>90</h></coordinates><panel_attributes>Comparable
+--
+compareTo(Object):int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>450</y><w>150</w><h>70</h></coordinates><panel_attributes>bg=blue
+LibrosTest
+--
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>370</y><w>110</w><h>100</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;90;80</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>120</y><w>170</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>150;10;10;10;10;160</additional_attributes></element><element><id>UMLNote</id><coordinates><x>380</x><y>270</y><w>150</w><h>70</h></coordinates><panel_attributes>CompareTo(Libro):int
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element></diagram>
